@@ -340,7 +340,7 @@ body {
   font-size: 14px;
   line-height: 150%;
   text-align: center;
-  max-width: 471px;
+  /* max-width: 471px; */
 }
 
 .collection-second-btn {
@@ -423,4 +423,49 @@ body {
 .about__contant {
   padding-top: 70px;
   color: #FFFFFF;
+  padding-bottom: 100px;
 }
+
+.about__title  {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.about__btn {
+  background-color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  margin-right: 20px;
+}
+
+.about-text-input {
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.about__form-element::placeholder {
+  color: #FFFFFF;
+}
+.about__form-element {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  padding: 10px 5px;
+  color: #FFFFFF;
+}
+
